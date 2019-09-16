@@ -5,18 +5,20 @@ import {Link} from "react-router-dom";
 
 
 const Navbar = () => (
-  <Menu>
+  <Menu style={{backgroundColor: "black"}}>
     <Link to="/">
-      <Menu.Item>
+      <Menu.Item style={{color:"white"}}>
         Home
       </Menu.Item>
     </Link>
     <Link to="/game">
-      <Menu.Item>
+      <Menu.Item style={{color:"white"}}>
         Game
       </Menu.Item>
     </Link>
   </Menu>
 );
+
+
 
 export default Navbar;
